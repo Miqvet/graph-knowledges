@@ -42,7 +42,7 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#has_Genre -->
+    <!--http://www.example.org/ontologies/videogames#has_Genre -->
 
     <owl:ObjectProperty rdf:about="http://www.example.org/ontologies/videogames#has_Genre">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -53,7 +53,7 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#has_Platform -->
+    <!--http://www.example.org/ontologies/videogames#has_Platform -->
 
     <owl:ObjectProperty rdf:about="http://www.example.org/ontologies/videogames#has_Platform">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
@@ -74,7 +74,7 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#age_rating -->
+    <!--http://www.example.org/ontologies/videogames#age_rating -->
 
     <owl:DatatypeProperty rdf:about="http://www.example.org/ontologies/videogames#age_rating">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -84,7 +84,7 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#avg_play_time -->
+    <!--http://www.example.org/ontologies/videogames#avg_play_time -->
 
     <owl:DatatypeProperty rdf:about="http://www.example.org/ontologies/videogames#avg_play_time">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -94,7 +94,7 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#is_multiplayer -->
+    <!--http://www.example.org/ontologies/videogames#is_multiplayer -->
 
     <owl:DatatypeProperty rdf:about="http://www.example.org/ontologies/videogames#is_multiplayer">
         <rdfs:domain rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
@@ -103,7 +103,7 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#max_players -->
+    <!--http://www.example.org/ontologies/videogames#max_players -->
 
     <owl:DatatypeProperty rdf:about="http://www.example.org/ontologies/videogames#max_players">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -113,7 +113,7 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#online -->
+    <!--http://www.example.org/ontologies/videogames#online -->
 
     <owl:DatatypeProperty rdf:about="http://www.example.org/ontologies/videogames#online">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -123,7 +123,7 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#release_Year -->
+    <!--http://www.example.org/ontologies/videogames#release_Year -->
 
     <owl:DatatypeProperty rdf:about="http://www.example.org/ontologies/videogames#release_Year">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -144,23 +144,9 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#Action -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Action">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
 
 
-    <!-- http://www.example.org/ontologies/videogames#Adventure -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Adventure">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Console -->
+    <!--http://www.example.org/ontologies/videogames#Console -->
 
     <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Console">
         <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
@@ -168,7 +154,7 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#CoopGame -->
+    <!--http://www.example.org/ontologies/videogames#CoopGame -->
 
     <owl:Class rdf:about="http://www.example.org/ontologies/videogames#CoopGame">
         <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#MultiplayerGame"/>
@@ -176,37 +162,15 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#CrossPlatformGame -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#CrossPlatformGame">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Fighting -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Fighting">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Genre -->
+    <!--http://www.example.org/ontologies/videogames#Genre -->
 
     <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Genre"/>
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#Horror -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Horror">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
 
 
-    <!-- http://www.example.org/ontologies/videogames#MobilePlatform -->
+    <!--http://www.example.org/ontologies/videogames#MobilePlatform -->
 
     <owl:Class rdf:about="http://www.example.org/ontologies/videogames#MobilePlatform">
         <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
@@ -214,7 +178,7 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#MultiplayerGame -->
+    <!--http://www.example.org/ontologies/videogames#MultiplayerGame -->
 
     <owl:Class rdf:about="http://www.example.org/ontologies/videogames#MultiplayerGame">
         <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
@@ -222,23 +186,17 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#OnlineGame -->
+    <!--http://www.example.org/ontologies/videogames#OnlineGame -->
 
     <owl:Class rdf:about="http://www.example.org/ontologies/videogames#OnlineGame">
         <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#MultiplayerGame"/>
     </owl:Class>
     
 
-
-    <!-- http://www.example.org/ontologies/videogames#OpenWorld -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#OpenWorld">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#PCPlatform -->
+    <!--http://www.example.org/ontologies/videogames#PCPlatform -->
 
     <owl:Class rdf:about="http://www.example.org/ontologies/videogames#PCPlatform">
         <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
@@ -246,21 +204,16 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#Platform -->
+    <!--http://www.example.org/ontologies/videogames#Platform -->
 
     <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Platform"/>
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#Platformer -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Platformer">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
 
 
-    <!-- http://www.example.org/ontologies/videogames#PopularGame -->
+
+    <!--http://www.example.org/ontologies/videogames#PopularGame -->
 
     <owl:Class rdf:about="http://www.example.org/ontologies/videogames#PopularGame">
         <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
@@ -268,47 +221,8 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#Puzzle -->
 
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Puzzle">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#RPG -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#RPG">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Racing -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Racing">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Shooter -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Shooter">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Simulation -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Simulation">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#SinglePlayerGame -->
+    <!--http://www.example.org/ontologies/videogames#SinglePlayerGame -->
 
     <owl:Class rdf:about="http://www.example.org/ontologies/videogames#SinglePlayerGame">
         <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
@@ -316,317 +230,12 @@
     
 
 
-    <!-- http://www.example.org/ontologies/videogames#Sports -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Sports">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
 
 
-    <!-- http://www.example.org/ontologies/videogames#Strategy -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Strategy">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Survival -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#Survival">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#VideoGame -->
+    <!--http://www.example.org/ontologies/videogames#VideoGame -->
 
     <owl:Class rdf:about="http://www.example.org/ontologies/videogames#VideoGame"/>
     
-
-
-    <!-- http://www.example.org/ontologies/videogames#VisualNovel -->
-
-    <owl:Class rdf:about="http://www.example.org/ontologies/videogames#VisualNovel">
-        <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Among_Us -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#Among_Us">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#MultiplayerGame"/>
-        <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#mafia"/>
-        <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#mobile"/>
-        <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</is_multiplayer>
-        <online rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">2005</online>
-        <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">2020</release_Year>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Cyberpunk_2077 -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#Cyberpunk_2077">
-        <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#rpg"/>
-        <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#pc"/>
-        <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
-        <online rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">7000</online>
-        <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">2020</release_Year>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Fortnite -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#Fortnite">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#MultiplayerGame"/>
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
-        <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#battle_royale"/>
-        <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#pc"/>
-        <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</is_multiplayer>
-        <online rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">1000000</online>
-        <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">2017</release_Year>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Genshin_Impact -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#Genshin_Impact">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#MultiplayerGame"/>
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
-        <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#gacha"/>
-        <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#mobile"/>
-        <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
-        <online rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">100000</online>
-        <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">2021</release_Year>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Hades -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#Hades">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
-        <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#rogalick"/>
-        <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#pc"/>
-        <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
-        <online rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">100</online>
-        <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">2019</release_Year>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Hollow_Knight -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#Hollow_Knight">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
-        <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#platformer"/>
-        <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#pc"/>
-        <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
-        <online rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">100</online>
-        <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">2020</release_Year>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Minecraft -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#Minecraft">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#MultiplayerGame"/>
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
-        <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#sandbox"/>
-        <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#pc"/>
-        <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</is_multiplayer>
-        <online rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">120000</online>
-        <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">2011</release_Year>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Overwatch -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#Overwatch">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#MultiplayerGame"/>
-        <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#fps"/>
-        <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#pc"/>
-        <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</is_multiplayer>
-        <online rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">6070</online>
-        <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">2016</release_Year>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Shooter -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#Shooter">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Strategy -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#Strategy">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#Super_Mario_Bros -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#Super_Mario_Bros">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
-        <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#platformer"/>
-        <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#nintendo"/>
-        <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
-        <online rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">10</online>
-        <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">1985</release_Year>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#The_Legend_of_Zelda -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#The_Legend_of_Zelda">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
-        <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#adventure"/>
-        <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#nintendo"/>
-        <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
-        <online rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">1</online>
-        <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedShort">1986</release_Year>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#action_adventure -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#action_adventure">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#adventure -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#adventure">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#battle_royale -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#battle_royale">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#fps -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#fps">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#gacha -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#gacha">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#mafia -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#mafia">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#mobile -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#mobile">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#nintendo -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#nintendo">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#pc -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#pc">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#platformer -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#platformer">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#ps4 -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#ps4">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#rogalick -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#rogalick">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#rpg -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#rpg">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/ontologies/videogames#sandbox -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/ontologies/videogames#sandbox">
-        <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
-    </owl:NamedIndividual>
-    
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -636,10 +245,10 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/x">
+    <rdf:Description rdf:about="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/onlineValue">
+    <rdf:Description rdf:about="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/onlineValue">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
@@ -654,7 +263,7 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -664,7 +273,7 @@
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="http://www.example.org/ontologies/videogames#is_multiplayer"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+                                <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
                                 <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</swrl:argument2>
                             </rdf:Description>
                         </rdf:first>
@@ -680,7 +289,7 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -702,7 +311,7 @@
                         <swrl:arguments>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                <rdf:first rdf:resource="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/onlineValue"/>
+                                <rdf:first rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/onlineValue"/>
                                 <rdf:rest>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
@@ -721,8 +330,8 @@
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="http://www.example.org/ontologies/videogames#online"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/onlineValue"/>
+                                <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+                                <swrl:argument2 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/onlineValue"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -732,7 +341,7 @@
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                                         <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+                                        <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -749,7 +358,7 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -768,7 +377,7 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.example.org/ontologies/videogames#is_multiplayer"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
                         <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
                     </rdf:Description>
                 </rdf:first>
@@ -779,7 +388,7 @@
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                                 <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+                                <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -794,7 +403,7 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#MultiplayerGame"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
