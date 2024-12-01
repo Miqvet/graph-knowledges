@@ -2,7 +2,7 @@ import requests
 from rdflib import Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDF, RDFS, XSD
 
-API_KEY = "9b25260cec3c4e10b3a64c39cf04ef37"
+API_KEY = "код апи"
 
 def get_genres():
     url = f"https://api.rawg.io/api/genres?key={API_KEY}"
